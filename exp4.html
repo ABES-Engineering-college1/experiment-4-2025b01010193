@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exp4</title>
+</head>
+<body>
+    <form action="response.html" name="SS" target="_blank" method="post">
+        <fieldset>
+           <center>
+                <legend> <h1>Hotel Room Booking Form</h1> </legend>
+                
+                    <label for="name"><b>Full Name:</b></label>
+                    <input type="text" id="name" name="name"  required>
+                
+<br>
+<br>
+                
+                    <label for="email"><b>Email:</b></label>
+                    <input type="email" name="email" id="email" required>
+                
+<br>
+<br>
+               
+                    <label for="Phone"><b>Phone:</b></label>
+                    <input type="tel" name="phone" id="phone" required>
+               
+<br>
+<br>
+               
+                    <label for="date"><b>Check-in Date:</b></label>
+                    <input type="date" name="date" id="date" required>
+               
+<br>
+<br>
+                
+                    <label for="date"><b>Check-out Date:</b></label>
+                    <input type="date" name="date" id="date" required>
+                
+<br>
+<br>
+               
+                    <label for="room-type"><b>Room Type:</b></label>
+                    <select name="sel" id="sel">
+                        <option value="single room">Single Room </option>
+                        <option value="double room">Double Room</option>
+                        <option value="Triple room">Triple Room</option>
+                        <option value="Suite">Suite</option>
+                        <option value="Deluxe">Deluxe Room</option>
+                        <option value="Standard">Standard Room</option>
+                    </select>
+
+<br>
+<br>
+
+                    <label for="total guests"><b>Number of Guests:</b></label>
+                    <input type="number" name="Number of guests" id="Number of guests" min="1" max="8" required>
+                
+<br>
+<br>
+               
+                    <label for="special requests"><b>Special Requests:</b></label>
+<br>             
+                    <textarea name="special request" id="special request" rows="3" cols="50"></textarea>
+
+<br>
+<br>
+               
+                    <button>Book Now</button>
+                    <button>Reset Form</button>
+            </center>
+                
+        </fieldset>
+    </form>
+</body>
+</html>
